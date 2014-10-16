@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear_round"
+    android:id="@+id/relative_view">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="If you already have the HTML, you can pass it here. We will not make any HTTP requests for the content if this parameter is used. Note: The input HTML should be UTF-8 encoded. And you will still need to give us the URL associated with the content (the URL may determine how the content is extracted, if we have extraction rules associated with it). If you already have the HTML, you can pass it here. We will not make any HTTP requests for the content if this parameter is used. Note: The input HTML should be UTF-8 encoded. And you will still need to give us the URL associated with the content (the URL may determine how the content is extracted, if we have extraction rules associated with it)."
+            android:id="@+id/textView" />
+    </ScrollView>
+</RelativeLayout>
